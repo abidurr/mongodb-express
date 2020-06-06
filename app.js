@@ -1,10 +1,12 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const postsRoute = require("./routes/posts");
 require("dotenv/config");
 
 const app = express();
 
-app.get("/", (req, res) => res.send("Hello world!"));
+app.get("/", (req, res) => res.send("Hello world form home!!"));
+app.use("/posts", postsRoute);
 
 // connect mongoose
 mongoose.connect(
