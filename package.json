@@ -1,0 +1,26 @@
+{
+  "name": "mongodb-express",
+  "version": "1.0.0",
+  "description": "A boilerplate repository for a REST API that uses MongoDB and Express.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abidurr/mongodb-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abidurr/mongodb-express/issues"
+  },
+  "homepage": "https://github.com/abidurr/mongodb-express#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
